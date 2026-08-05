@@ -48,3 +48,10 @@
 - 생성한 문서: `prompts/wiki-management.md`, `prompts/planning-reviews.md`, `prompts/repository-operations.md`
 - 수정한 문서: AGENTS.md, README.md
 - 확인이 필요한 내용: 없음
+
+## [2026-08-05] review | 일일 학습 리뷰 도입
+
+- 처리한 원본: 2026-08-05 수업 메모와 JPA 연관관계 코드
+- 생성한 문서: `reviews/daily/2026-08-05.md`, `system/templates/daily-review.md`
+- 수정한 문서: AGENTS.md, planning/repository prompt, README.md
+- 확인이 필요한 내용: 정규화와 Optional 학습 완료 여부

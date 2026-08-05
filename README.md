@@ -12,6 +12,7 @@
 
 ## 정기 리뷰
 
+- 일일 정리: 매일 `reviews/daily/YYYY-MM-DD.md`에 그날 배운 내용과 기존 Wiki의 연결을 기록합니다.
 - 주간 정리: 요청 시 `reviews/weekly/YYYY-Www.md`에 그 주의 학습 연결을 기록합니다.
 - 월간 정리: 요청 시 `reviews/monthly/YYYY-MM.md`에 주간 리뷰와 Wiki 변화를 통합합니다.
 - 주간·월간 계획은 만들지 않으며, 일일 계획만 `planner/daily/`에 누적합니다.
