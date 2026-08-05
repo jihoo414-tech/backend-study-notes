@@ -112,7 +112,7 @@ private List<Answer> answers = new ArrayList<>();
 
 ## Optional과 함께 보기
 
-수업 예제의 `findById(5).get()`은 값이 없으면 `NoSuchElementException`을 발생시킨다. 조회 실패의 의미를 드러내려면 `[[Optional]]`에서 다루는 `orElseThrow` 사용을 검토한다.
+수업 예제의 `findById(5).get()`은 값이 없으면 `NoSuchElementException`을 발생시킨다. 조회 실패의 의미를 드러내려면 [Optional](../java/Optional.md)에서 다루는 `orElseThrow` 사용을 검토한다.
 
 ## 검증 필요
 
@@ -120,6 +120,3 @@ private List<Answer> answers = new ArrayList<>();
 - 질문 삭제 시 답변을 함께 삭제하는 것이 요구사항에 맞는지 확인한 뒤 `CascadeType.REMOVE`를 확정해야 한다.
 
 ## 출처
-
-- [Jakarta Persistence `OneToMany`](https://jakarta.ee/specifications/persistence/4.0/apidocs/jakarta.persistence/jakarta/persistence/onetomany)
-- [Jakarta Persistence `ManyToOne`](https://jakarta.ee/specifications/persistence/3.1/apidocs/jakarta.persistence/jakarta/persistence/manytoone)

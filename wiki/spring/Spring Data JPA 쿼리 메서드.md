@@ -38,9 +38,7 @@ Spring Data는 첫 `By` 뒤의 조건을 엔티티 속성 이름으로 해석한
 
 - 메서드의 속성 이름은 엔티티 필드와 일치해야 한다.
 - 조건이 복잡해져 이름이 지나치게 길어지면 `@Query`, Specification, Querydsl 같은 대안을 검토한다.
-- 결과가 없을 수 있는 단건 조회는 `[[Optional]]`을 반환해 부재 가능성을 표현할 수 있다.
+- 결과가 없을 수 있는 단건 조회는 [Optional](../java/Optional.md)을 반환해 부재 가능성을 표현할 수 있다.
 - 연관관계 속성을 따라가는 쿼리는 생성 SQL과 조회 횟수도 확인한다.
 
 ## 출처
-
-- [Spring Data JPA Query Methods](https://docs.spring.io/spring-data/jpa/reference/repositories/query-methods-details.html)

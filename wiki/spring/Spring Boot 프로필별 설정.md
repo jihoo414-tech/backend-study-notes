@@ -63,6 +63,3 @@ spring:
 - 테스트 격리
 
 ## 출처
-
-- [Spring Boot Externalized Configuration](https://docs.spring.io/spring-boot/reference/features/external-config.html)
-- [Spring Boot Profiles](https://docs.spring.io/spring-boot/reference/features/profiles.html)

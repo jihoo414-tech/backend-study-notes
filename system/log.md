@@ -55,3 +55,10 @@
 - 생성한 문서: `reviews/daily/2026-08-05.md`, `system/templates/daily-review.md`
 - 수정한 문서: AGENTS.md, planning/repository prompt, README.md
 - 확인이 필요한 내용: 정규화와 Optional 학습 완료 여부
+
+## [2026-08-05] refactor | GitHub 호환 내부 링크
+
+- 처리한 원본: 없음
+- 생성한 문서: 없음
+- 수정한 문서: Wiki, 일일 리뷰, 일일 계획, AGENTS.md, Wiki/계획 prompt, Obsidian 링크 설정
+- 확인이 필요한 내용: YAML frontmatter 링크는 Obsidian 속성 호환을 위해 Wikilink 유지
