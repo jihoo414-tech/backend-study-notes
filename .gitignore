@@ -1,0 +1,23 @@
+# Raw learning materials stay local. Keep only directory placeholders in Git.
+raw/**
+!raw/**/
+!raw/**/.gitkeep
+
+# Personal plans and Obsidian workspace settings stay local.
+planner/
+.obsidian/
+.trash/
+
+# Local AI instructions
+/AGENTS.md
+/prompts/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary and OS files
+*.log
+.DS_Store
+Thumbs.db
