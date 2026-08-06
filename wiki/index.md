@@ -12,7 +12,9 @@
 
 ## Database
 
+- [관계형 데이터 모델링](database/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81.md) — 업무 규칙을 ERD와 관계형 구조로 옮기는 단계, 식별자, 대응 수와 선택성
 - [데이터베이스 정규화](database/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EA%B7%9C%ED%99%94.md) — 데이터 이상과 중복을 줄이는 1NF부터 3NF까지의 과정
+- [데이터베이스 정규화 연습문제](database/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%A0%95%EA%B7%9C%ED%99%94%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.md) — 수강 신청 데이터를 1NF부터 3NF까지 직접 분해하는 문제
 
 ## CS
 
