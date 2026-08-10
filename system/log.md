@@ -132,3 +132,24 @@
 - 생성한 문서: `reviews/daily/2026-08-06.md`
 - 수정한 문서: JPA 일대다 다대일 연관관계, `planner/daily/2026-08-06.md`
 - 확인이 필요한 내용: PBL의 cascade 설정, 연관관계의 주인 설정, 트랜잭션 경계와 실제 SQL 실행 결과
+
+## [2026-08-06] plan | EAGER·LAZY 심화 영상 학습
+
+- 처리한 원본: 사용자 제공 우아한테크 JPA 영상 2개
+- 생성한 문서: 없음
+- 수정한 문서: `planner/daily/2026-08-06.md`
+- 확인이 필요한 내용: 영상 시청 후 실제로 다룬 EAGER·LAZY, 영속성 컨텍스트와 엔티티 생명주기 범위
+
+## [2026-08-06] plan | 영속 컨텍스트와 라이프사이클 영상 추가
+
+- 처리한 원본: 사용자 제공 최범균 JPA 기초 영상
+- 생성한 문서: 없음
+- 수정한 문서: `planner/daily/2026-08-06.md`
+- 확인이 필요한 내용: 영상 시청 후 확인된 엔티티 상태 전환과 EAGER·LAZY 연결 범위
+
+## [2026-08-06] ingest | Spring Bean 등록과 의존성 주입 수업 메모
+
+- 처리한 원본: `raw/inbox/2026-08-06 Spring Bean 등록과 의존성 주입 수업 메모.md`
+- 생성한 문서: Spring Bean 등록과 의존성 주입, ApplicationRunner
+- 수정한 문서: `wiki/index.md`, `planner/daily/2026-08-06.md`, `reviews/daily/2026-08-06.md`
+- 확인이 필요한 내용: 수업의 `self` 적용 코드와 애너테이션, ApplicationRunner의 실제 역할, 프록시 나머지 설명

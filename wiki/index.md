@@ -37,3 +37,5 @@
 ## Projects
 
 ## Interview
+- [Spring Bean 등록과 의존성 주입](spring/Spring%20Bean%20%EB%93%B1%EB%A1%9D%EA%B3%BC%20%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85.md) — `@Bean`과 컴포넌트 스캔, 필드·생성자 주입, `self`·`@Lazy` 비교
+- [ApplicationRunner](spring/ApplicationRunner.md) — Spring Boot 컨텍스트 준비 후 실행하는 시작 콜백과 Runner 호출 흐름
