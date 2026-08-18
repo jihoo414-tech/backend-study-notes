@@ -19,17 +19,20 @@
 - 원본 메모와 코드는 `raw/`에 그대로 보존합니다.
 - 검토한 내용은 `wiki/`의 주제별 문서에 반영합니다.
 - 관련 개념은 상대 경로 링크로 연결해 GitHub와 Obsidian에서 모두 탐색할 수 있게 합니다.
-- 리뷰는 배운 내용을 나열하기보다 선수 지식, 응용 지점, 반복 주제를 중심으로 통합합니다.
+- 일일 리뷰는 그날 새로 설명할 수 있게 된 내용과 직접 구현·검증한 근거를 남깁니다.
+- 주간 리뷰는 주초와 비교해 설명·구현·검증 능력이 어떻게 달라졌는지 파고듭니다.
+- 월간 리뷰는 실제 기록에서 이력서·포트폴리오·면접에 활용할 재료 후보를 추출합니다.
 
 ## 저장소 구조
 
 | 경로 | 역할 |
 | --- | --- |
 | [`wiki/`](wiki/) | Java, Spring, Database, CS 등 주제별 지식 문서 |
-| [`reviews/daily/`](reviews/daily/) | 날짜별 학습 내용과 관련 개념 연결 |
-| [`reviews/weekly/`](reviews/weekly/) | 한 주 동안 학습한 내용의 통합 리뷰 |
-| [`reviews/monthly/`](reviews/monthly/) | 주간 리뷰와 Wiki 변화를 연결한 월간 리뷰 |
+| [`reviews/daily/`](reviews/daily/) | 하루의 학습 변화와 구현·검증 근거 |
+| [`reviews/weekly/`](reviews/weekly/) | 주초와 비교한 설명·구현·검증 능력의 변화 |
+| [`reviews/monthly/`](reviews/monthly/) | 학습 기록에서 추출한 이력서·포트폴리오·면접 재료 후보 |
 | [`system/templates/`](system/templates/) | 개념 문서와 리뷰에 사용하는 Markdown 템플릿 |
+| [`system/templates/raw-submission/`](system/templates/raw-submission/) | 채팅·파일로 Raw 자료를 전달할 때 사용하는 사용자 입력 템플릿 |
 | [`system/log.md`](system/log.md) | Wiki 생성·수정 작업 기록 |
 | `raw/` | 원본 학습 자료와 첨부 파일을 보관하는 로컬 전용 영역 |
 | `planner/` | 목표, 로드맵, 일일 계획을 관리하는 로컬 전용 영역 |
@@ -50,14 +53,14 @@
 
 1. 원본 자료와 정리된 지식을 분리합니다.
 2. 새 문서를 만들기 전에 기존 문서와 연결하거나 보완할 지점을 찾습니다.
-3. 코드, 공식 문서, 실습 결과를 근거로 내용을 검증합니다.
+3. 요구사항, 코드, 테스트 결과를 문서 안에 보존하고 공개 출처로 내용을 검증합니다.
 4. 확인되지 않은 내용과 추가 학습이 필요한 부분을 명확히 표시합니다.
 5. GitHub에서도 이동할 수 있도록 본문 링크는 상대 경로 Markdown 형식을 사용합니다.
 
 ## 빠르게 둘러보기
 
 - [전체 Wiki 문서 보기](wiki/index.md)
-- [최근 일일 학습 리뷰](reviews/daily/2026-08-05.md)
+- [최근 일일 학습 리뷰](reviews/daily/2026-08-18.md)
 - [문서 템플릿 보기](system/templates/)
 
 이 저장소는 학습이 진행될수록 문서 수만 늘리는 대신, 기존 개념 사이의 관계를 촘촘하게 보완하는 것을 목표로 합니다.
