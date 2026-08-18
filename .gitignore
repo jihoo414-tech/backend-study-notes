@@ -21,3 +21,13 @@ planner/
 *.log
 .DS_Store
 Thumbs.db
+
+# Graphify local runtime, cache, and query memory
+/graphify-out/.graphify_*
+/graphify-out/.vocab.txt
+/graphify-out/cache/
+/graphify-out/cost.json
+/graphify-out/manifest.json
+/graphify-out/memory/
+/graphify-out/reflections/
+/wiki/graphify-out/
