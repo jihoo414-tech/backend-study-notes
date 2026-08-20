@@ -4,7 +4,7 @@ category: java
 type: comparison
 status: reviewing
 created: 2026-08-13
-updated: 2026-08-18
+updated: 2026-08-19
 sources:
   - "[[2026-08-13 PBL mission-03 완료 메모]]"
   - "[[2026-08-14 PBL mission-04 완료 메모]]"
@@ -13,6 +13,7 @@ sources:
   - "https://github.com/devcos-pbl/devcos-pbl-backend-14-jihoo414-tech/tree/main/missions/mission-04-library-rental"
 related:
   - "[[mission-03 Attendance Manager]]"
+  - "[[Java Set과 Map 구현체별 시간 복잡도]]"
 tags:
   - java
   - collection
@@ -114,6 +115,7 @@ Todo API의 메모리 저장소는 `Map<Long, Todo>` 인터페이스에 `LinkedH
 
 ## 관련 개념
 
+- [Java Set과 Map 구현체별 시간 복잡도](Java%20Set%EA%B3%BC%20Map%20%EA%B5%AC%ED%98%84%EC%B2%B4%EB%B3%84%20%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84.md) — 중복·순서·정렬 요구에 따른 Set·Map 구현체와 연산 비용 비교
 - [mission-03 Attendance Manager](../projects/mission-03%20Attendance%20Manager.md) — 복합 키 기반 출석 기록에 `Map`을 적용한 사례
 - 복합 키의 `equals()`와 `hashCode()`
 - `HashMap`, `LinkedHashMap`, `TreeMap`의 순서 차이

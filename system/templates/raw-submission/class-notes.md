@@ -17,8 +17,8 @@ verification: required
 
 ## 수업 정보
 
-- 수업 날짜: YYYY-MM-DD
-- 강의 또는 과정명:
+- 수업 날짜: 2026-08-19
+- 강의 또는 과정명: 프로그래머스 데브코스
 - 강사:
 - 학습 분야:
 - 사용한 기술과 버전:
@@ -26,12 +26,32 @@ verification: required
 
 ## 오늘 다룬 범위
 
+- 프론트엔드에서 동기, 비동기 처리가 필요한 이유
 -
 
 ## 원본 수업 메모
 
-> 오타나 잘못된 설명처럼 보여도 원문을 고치지 말고 그대로 붙여 넣는다.
+> fetch의 비동기, 동기 처리
+```
+// Promise 체이닝
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((res) => res.json())
+  .then((data) => {
+    console.log("123");
+  });
 
+console.log("hihihi");
+
+// await 동기식
+// async function fetchPost() {
+//   const res = await fetch("http://localhost:8080/api/v1/posts");
+//   const data = await res.json();
+//   console.log(data);
+// }
+
+// fetchPost();
+
+```
 
 ## 수업에서 작성한 코드
 

@@ -2,6 +2,7 @@
 
 ## Java
 
+- [Java Set과 Map 구현체별 시간 복잡도](java/Java%20Set%EA%B3%BC%20Map%20%EA%B5%AC%ED%98%84%EC%B2%B4%EB%B3%84%20%EC%8B%9C%EA%B0%84%20%EB%B3%B5%EC%9E%A1%EB%8F%84.md) — Hash·LinkedHash·Tree 구현체의 중복·순서·정렬 특성과 주요 연산 비용
 - [List와 Map 선택 기준](java/List%EC%99%80%20Map%20%EC%84%A0%ED%83%9D%20%EA%B8%B0%EC%A4%80.md) — 순회·순서와 키 기반 조회·갱신 요구사항에 따라 Java 컬렉션을 선택하는 기준
 - [Java 문자열 공백 처리](java/Java%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EA%B3%B5%EB%B0%B1%20%EC%B2%98%EB%A6%AC.md) — `replaceAll("\\s+", ...)`와 `isBlank()`·`isEmpty()`의 차이
 - [Optional](java/Optional.md) — 값의 부재를 명시적으로 표현하고 처리하는 Java 컨테이너
@@ -36,6 +37,10 @@
 
 ## Algorithm
 
+- [연속 중복 제거와 이전 값 비교](algorithm/%EC%97%B0%EC%86%8D%20%EC%A4%91%EB%B3%B5%20%EC%A0%9C%EA%B1%B0%EC%99%80%20%EC%9D%B4%EC%A0%84%20%EA%B0%92%20%EB%B9%84%EA%B5%90.md) — 결과의 마지막 값과 현재 값을 비교해 연속 중복만 제거하고 Stack과 List 선택을 비교하는 순차 처리
+- [세 장 카드 합의 K번째 큰 값](algorithm/%EC%84%B8%20%EC%9E%A5%20%EC%B9%B4%EB%93%9C%20%ED%95%A9%EC%9D%98%20K%EB%B2%88%EC%A7%B8%20%ED%81%B0%20%EA%B0%92.md) — 세 카드 조합의 합을 TreeSet으로 중복 제거·내림차순 유지해 K번째 값을 찾는 방법
+- [방향 정규화와 완전탐색 연습문제](algorithm/%EB%B0%A9%ED%96%A5%20%EC%A0%95%EA%B7%9C%ED%99%94%EC%99%80%20%EC%99%84%EC%A0%84%ED%83%90%EC%83%89%20%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C.md) — 최소 경계 집계, 대칭 제거와 실제 조합·순서 탐색을 비교하는 프로그래머스 단계별 문제 묶음
+- [회전 가능한 직사각형의 방향 정규화](algorithm/%ED%9A%8C%EC%A0%84%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EB%B0%A9%ED%96%A5%20%EC%A0%95%EA%B7%9C%ED%99%94.md) — 각 직사각형을 긴 변·짧은 변 순서로 통일해 회전 조합을 제거하고 최소 경계를 구하는 방법
 - [전화번호 목록 접두어 탐색](algorithm/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D%20%EC%A0%91%EB%91%90%EC%96%B4%20%ED%83%90%EC%83%89.md) — 모든 문자열 쌍 비교를 각 문자열의 접두어 생성과 해시 조회로 바꾸는 탐색 전략
 - [고정 길이 슬라이딩 윈도우](algorithm/%EA%B3%A0%EC%A0%95%20%EA%B8%B8%EC%9D%B4%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A9%20%EC%9C%88%EB%8F%84%EC%9A%B0.md) — 겹치는 연속 구간에서 빠지는 값과 들어오는 값만 반영해 `O(N)`에 집계하는 방법
 - [정렬된 두 배열 병합과 투 포인터](algorithm/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EB%91%90%20%EB%B0%B0%EC%97%B4%20%EB%B3%91%ED%95%A9%EA%B3%BC%20%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0.md) — 정렬된 두 입력의 현재 최솟값을 비교해 `O(N + M)`에 병합하는 발상과 불변식
